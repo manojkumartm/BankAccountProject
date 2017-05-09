@@ -21,7 +21,7 @@ public class App {
 
 	}
 
-	public List<Account> getAccountDetailsByBalance(double amount) {
+	/*public List<Account> getAccountDetailsByBalance(double amount) {
 
 		emp2 = new ArrayList<Account>();
 		for (Account e : accounts) {
@@ -34,7 +34,7 @@ public class App {
 		}
 		return emp2;
 
-	}
+	}*/
 
 	public static void main(String[] args) {
 
@@ -47,9 +47,9 @@ public class App {
 		accounts.add(new Account(7, "Mojo", 7001.11));
 		accounts.add(new Account(7, "Sachin", 8001.99));
 
-		App temp = new App();
+		/*App temp = new App();
 		System.out.println(temp.getAccountDetailsByID(1));
-		System.out.println(temp.getAccountDetailsByBalance(5001.77));
+		System.out.println(temp.getAccountDetailsByBalance(5001.77));*/
 
 	}
 }
