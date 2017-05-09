@@ -37,7 +37,7 @@ public class AppTest {
 		assertNotEquals("patel", acc.getUserName());
 	}
 
-	/*@Test
+	@Test
 	public void getAccountDetailsByBalance1() {
 		App.accounts.add(new Account(1, "acc1", 101.11));
 		App.accounts.add(new Account(3, "acc3", 303.33));
@@ -82,5 +82,5 @@ public class AppTest {
 		assertNotNull(actualAccounts);
 		assertEquals(checkActualAccounts.size(), actualAccounts.size());
 	}
-*/
+
 }
